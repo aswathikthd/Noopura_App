@@ -1,0 +1,12 @@
+.content{
+    margin: 0 auto;
+    background-color:chocolate;
+    margin-top: -24px;
+    height: 80px;
+}
+h1{
+    color:white;
+    padding:16px;
+    text-align: center;
+    font-size: 31px;
+}

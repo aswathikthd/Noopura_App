@@ -1,0 +1,25 @@
+.container{
+    width: 400px;
+    /* margin: 0 auto; */
+    background-color:lightgrey;
+    margin-top: 50px;
+    padding:20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.login-btn{
+    font-weight: bold;
+    width: 176px;
+    height: 37px;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: 14px;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    width: 228px;
+}
+label{
+    font-size: 19px;
+}

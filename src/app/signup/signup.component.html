@@ -1,0 +1,23 @@
+<div class="container">
+        <form (submit)="onRegister()">
+    <div>
+        <label >First Name : </label>
+        <input  name= "firstname" type="text" [(ngModel)]="fname"/>
+    </div><br>
+   <div>
+        <label >Last Name : </label>
+        <input  name= "lastname" type="text" [(ngModel)]="lname"/>
+    </div><br>
+    <div>
+        <label >Email ID :  </label> &nbsp;
+        <input  name= "email" type="email" [(ngModel)]="email"/>
+    </div><br>
+    <div>
+        <label >Contact  : </label> &nbsp; &nbsp;
+        <input  name= "phoneno" type="number" [(ngModel)]="phoneno"/>
+    </div><br>
+    <div>
+        <button type="submit" id="login-btn" class="login-btn">Sign Up</button>
+    </div>
+</form>
+</div>
